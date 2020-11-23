@@ -30,6 +30,22 @@ button {
   color: #eeecec;
 }
 
+.highs span, 
+.lows span,
+.wind__speed span, 
+.current__temp span,
+.feels__like span,
+.clouds span {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  width: 50%;
+}
+
 .input-container {
   display: flex;
   box-shadow: 0px 5px 100px -18px;
@@ -49,4 +65,37 @@ button {
 .input-container input {
   padding: 5px 10px 5px 10px;
   border: none;
+}
+
+.location {
+  color: white;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+#report {
+  margin-top: 50px;
+  padding: 0 10px 0 10px;
+}
+
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: rgb(41, 41, 41, 0.5);
+  margin: 0 auto;
+  max-width: 786px;
+  height: 180px;
+}
+
+.weather-container span {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-container div {
+  margin-bottom: 4px;
 }
