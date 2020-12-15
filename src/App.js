@@ -27,7 +27,7 @@ export default class App extends Component {
   renderWeather = data => {
     console.log(data);
     if(data.cod === "404") {
-      alert(`${data.message}...` + " " + `Please enter a valid location excluding state and zip codes. Example: San Diego `);
+      alert(`${data.message}... Please enter a valid location excluding state and zip codes. Example: San Diego `);
       return
     }
     const report = document.querySelector("#report");
